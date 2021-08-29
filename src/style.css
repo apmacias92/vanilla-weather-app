@@ -1,5 +1,6 @@
-body {
-  background: #f8f5fd;
+.App {
+  max-width: 800px;
+  margin: 60px auto;
 }
 
 .Weather {
@@ -83,13 +84,9 @@ body {
   line-height: 1;
 }
 
-.Weather canvas {
-  margin: 10px 0;
-}
-
 .Weather .unit {
   color: rgb(33, 33, 33);
-  font-size: 28px;
+  font-size: 18px;
   line-height: 36px;
   font-weight: normal;
   position: relative;
@@ -108,47 +105,16 @@ body {
 .Weather footer a {
   color: #885df1;
 }
-
-.WeatherForecast {
-  text-align: center;
-  margin: 40px 0;
-  border-bottom: 1px solid #f8f5fd;
-  padding-bottom: 50px;
-}
-
-.WeatherForecast .forecast-time {
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: rgba(39, 33, 66, 0.4);
-}
-
-.WeatherForecast .forecast-temperature {
-  font-style: normal;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #f65282;
-  font-weight: bold;
-}
-
-.WeatherForecast .forecast-temperature-min {
-  margin-left: 10px;
-  opacity: 0.6;
-}
-
-.Weather .WeatherForecast canvas {
-  display: block;
-  margin: 20px auto;
-}
 .WeatherInfo {
   margin-top: 20px;
 }
 
 .WeatherInfo .temperature-container {
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
-.App {
-  max-width: 800px;
-  margin: 60px auto;
+.Weather .cloud {
+  width: 52px;
+  height: 52px;
 }
