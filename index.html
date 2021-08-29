@@ -16,7 +16,118 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
+      <div class="App">
+        <div class="container">
+          <div class="Weather">
+            <form>
+              <div class="row">
+                <div class="col-9">
+                  <input
+                    type="search"
+                    placeholder="Enter a city.."
+                    class="form-control search-input"
+                  />
+                </div>
+                <div class="col-3 p-0">
+                  <input
+                    type="submit"
+                    class="btn btn-primary w-100"
+                    value="Search"
+                  />
+                </div>
+              </div>
+            </form>
+            <div class="WeatherInfo">
+              <div class="row">
+                <div class="col-6">
+                  <h1>New York</h1>
+                  <ul>
+                    <li><span>Saturday 19:22</span>, overcast clouds</li>
+                    <li>
+                      Humidity: <strong>75%</strong>, Wind:
+                      <strong>6.17km/h</strong>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <div class="temperature-container d-flex justify-content-end">
+                    <img
+                      src="/images/cloud.png"
+                      class="weather"
+                      alt="weather logo"
+                    />
+                    <div>
+                      <span class="temperature">21</span
+                      ><span class="unit">°C</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="WeatherForecast row">
+              <div class="col">
+                <div class="WeatherForecastPreview">
+                  <div class="forecast-time">Sat</div>
+                  <canvas width="38" height="38"></canvas>
+                  <div class="forecast-temperature">
+                    <span class="forecast-temperature-max">27°</span
+                    ><span class="forecast-temperature-min">21°</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="WeatherForecastPreview">
+                  <div class="forecast-time">Sun</div>
+                  <canvas width="38" height="38"></canvas>
+                  <div class="forecast-temperature">
+                    <span class="forecast-temperature-max">26°</span
+                    ><span class="forecast-temperature-min">22°</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="WeatherForecastPreview">
+                  <div class="forecast-time">Mon</div>
+                  <canvas width="38" height="38"></canvas>
+                  <div class="forecast-temperature">
+                    <span class="forecast-temperature-max">32°</span
+                    ><span class="forecast-temperature-min">23°</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="WeatherForecastPreview">
+                  <div class="forecast-time">Tue</div>
+                  <canvas width="38" height="38"></canvas>
+                  <div class="forecast-temperature">
+                    <span class="forecast-temperature-max">31°</span
+                    ><span class="forecast-temperature-min">25°</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="WeatherForecastPreview">
+                  <div class="forecast-time">Wed</div>
+                  <canvas width="38" height="38"></canvas>
+                  <div class="forecast-temperature">
+                    <span class="forecast-temperature-max">24°</span
+                    ><span class="forecast-temperature-min">21°</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer>
+              This project was coded by
+              <a
+                href="https://www.linkedin.com/in/anapaulamacias/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ana Paula Macias</a
+              >.
+            </footer>
+          </div>
+        </div>
+      </div>
       <script src="src/app.js"></script>
     </div>
   </body>
