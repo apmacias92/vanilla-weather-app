@@ -66,6 +66,7 @@
   font-size: 16px;
   line-height: 20px;
   list-style: none;
+  text-transform: capitalize;
 }
 
 .Weather li strong {
@@ -80,7 +81,7 @@
   font-weight: 400;
   margin-left: 10px;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1;
 }
 
