@@ -95,6 +95,7 @@ li::first-letter {
   position: relative;
   line-height: 1;
   top: -34px;
+  text-decoration: none;
 }
 
 .Weather footer {
@@ -120,4 +121,22 @@ li::first-letter {
 .Weather .cloud {
   width: 52px;
   height: 52px;
+}
+
+.temperature-container .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.temperature-container .active:hover {
+  text-decoration: none;
+}
+
+#f-link {
+  text-decoration: none;
+}
+
+#c-link {
+  text-decoration: none;
 }
