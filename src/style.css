@@ -140,3 +140,18 @@ li::first-letter {
 #c-link {
   text-decoration: none;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(33, 33, 33);
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-tempmin {
+  opacity: 0.5;
+}
+.weather-forecast-temp {
+  font-size: 13px;
+}
